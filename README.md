@@ -1,4 +1,8 @@
-# my-vue3-project
+## Prerequisites
+Ensure you have the following installed:
+
+- **Node.js 18**: [Download and install Node.js 18](https://nodejs.org/)
+- **Yarn**
 
 ## Project setup
 ```
@@ -9,17 +13,3 @@ yarn install
 ```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# addmondz-kiratechnologies-fe-assignment-git
