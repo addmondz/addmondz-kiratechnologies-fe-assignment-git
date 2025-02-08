@@ -15,7 +15,7 @@
                 </div>
                 <div class="flex justify-between w-full pt-6 flex-col sm:flex-row">
                     <div class="flex justify-start flex-1">
-                        <button class="bg-cyan-400 hover:bg-gray-200 text-white py-2 px-4 rounded border flex items-center" @click="prevPage"><ReloadOutlined class="mr-3" />Refresh</button>
+                        <button class="bg-cyan-400 hover:bg-gray-200 text-white py-2 px-4 rounded border flex items-center" @click="fetchList(currentPage)"><ReloadOutlined class="mr-3" />Refresh</button>
                     </div>
                     <div class="mb-4 sm:mb-0 flex items-end">
                         <small class="text-center">Current Page: <b>{{ currentPage }}</b></small>
