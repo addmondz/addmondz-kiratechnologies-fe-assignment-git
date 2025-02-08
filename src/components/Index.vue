@@ -45,7 +45,7 @@
     </div>
 
     <!-- list data section -->
-    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 p-5 sm:p-0 container mx-auto flex items-center mt-14">
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 p-5 sm:p-0 container mx-auto flex items-center mt-14 mb-10">
         <ListComponent apiUrl="https://randomuser.me/api" class="w-full">
             <template v-slot:list-view="{ data, apiResponse, fullApiResponse }">
                 <!-- {{ data }} -->
